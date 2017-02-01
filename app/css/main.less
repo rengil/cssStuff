@@ -1,0 +1,144 @@
+@accent-color: #FFC107;
+
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-y: scroll;
+}
+
+.page-header{
+ color:white;
+ background-color: #009688!important;
+ margin-bottom:0px;
+ margin-top:0px;
+}
+
+.page-content{
+  margin-top: 3em;
+  min-height: 25em;
+}
+
+.user-info{
+  >.form-group > label{
+    font-size: 1.2em;
+    font-weight: 100;
+  }
+
+  >.form-group > .form-control{
+    background-color: transparent;
+    border:none;
+    border-bottom: solid 1px;
+    box-shadow: initial;
+    border-radius: 0;
+    color:inherit;
+  }
+
+ > button{
+   background-color: @accent-color;
+   padding-right: 5em;
+   padding-left: 5em;
+   border-radius: 0;
+ }
+
+}
+
+.navbar{
+  background-color: #303F9F;
+  margin-bottom: 0px;
+  border-radius: 0;
+  color:white;
+  min-height:30px;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:5px !important; padding-bottom:0 !important;
+    height: 30px;
+}
+
+.first-row{
+  background-color: #3F51B5;
+  color:white;
+  > .alert {
+    margin-top: 5em;
+  }
+}
+
+.second-row{
+  background-color: white;
+  color:#757575;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.user-matching-groups{
+  >.groups{
+  min-height: 22em;
+  max-height: 22em;
+  color:white;
+  overflow-y: scroll;
+  }
+
+ > button {
+
+   border-radius: 0;
+   color: #CDDC39;
+   border: solid 2px #CDDC39;
+   background-color: transparent;
+   padding: 1.2em;
+   font-weight: bold;
+   margin-top:0.5em;
+   margin-bottom:0.5em;
+
+   &:hover{
+     color: white;
+     border: solid 2px #CDDC39;
+     background-color: #CDDC39;
+
+   }
+ }
+}
+
+.matching-group{
+  min-height: 22em;
+  max-height: 22em;
+}
+
+.user-information{
+  color:white;
+  min-height: 22em;
+  max-height: 22em;
+}
+
+.form-control {
+  background-color: transparent;
+  border:none;
+  border-bottom: solid black 1px;
+  box-shadow: initial;
+  border-radius: 0;
+}
+
+.table>tbody>tr>td,{
+  font-size: 1.2em;
+  font-weight: 100;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.icon-text-clickable{
+  vertical-align: bottom;
+  margin-top:1em;
+  cursor: pointer;
+
+  &:hover{
+    color: #CDDC39;
+  }
+
+ > span{
+   vertical-align: middle;
+ }
+
+ > i {
+   vertical-align: middle;
+ }
+}
